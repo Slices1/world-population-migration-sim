@@ -191,3 +191,5 @@ claude/*
 .claude/*
 claude.md
 Claude.md
+
+model/data/*

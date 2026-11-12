@@ -34,6 +34,18 @@ Open the live app linked above. The map shows each country's projected populatio
 
 Only needed to refit the parameters or regenerate the report figures. Requires Python 3.10 or newer.
 
+
+Download the datasets:
+- [The Bilateral flow estimates (latest version)](https://figshare.com/collections/Bilateral_international_migration_flow_estimates_for_200_countries/4470464) as `bilateral_migration_estimates.csv` 
+- [`1950-2023 (gz)` under `Population on 01 January, by single age. Only medium is available` under `Population`](https://population.un.org/wpp/downloads?folder=Standard%20Projections&group=CSV%20format)
+- [`2024-2100 (gz)` under `Population on 01 January, by single age. Only medium is available` under `Population`](https://population.un.org/wpp/downloads?folder=Standard%20Projections&group=CSV%20format)
+- [`1950-2023 (gz)` under `Deaths, by single age. Only medium is available.` under `Mortality`](https://population.un.org/wpp/downloads?folder=Standard%20Projections&group=CSV%20format)
+- [`2024-2100 (gz)` under `Deaths, by single age. Only medium is available.` under `Mortality`](https://population.un.org/wpp/downloads?folder=Standard%20Projections&group=CSV%20format)
+- [`1950-2100, single age (gz)` under `Fertility`](https://population.un.org/wpp/downloads?folder=Standard%20Projections&group=CSV%20format)
+- [`1950-2100, medium (gz)` under `Demographic Indicators`](https://population.un.org/wpp/downloads?folder=Standard%20Projections&group=CSV%20format)
+
+
+
 Create and activate a virtual environment from the repository root:
 
 ```bash
