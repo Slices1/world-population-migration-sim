@@ -183,3 +183,11 @@ site/
 .vscode/sftp.json
 .vscode/tags
 .devcontainer/
+
+temp/*
+tmp/*
+
+claude/*
+.claude/*
+claude.md
+Claude.md
