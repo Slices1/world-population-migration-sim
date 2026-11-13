@@ -1,4 +1,3 @@
-# Publishes the app/ folder to GitHub Pages on every push to main.
 name: Deploy app to GitHub Pages
 
 on:
@@ -24,7 +23,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # The app runs the team's model unchanged, so copy it in alongside the page.
+
       - name: Assemble site
         run: |
           mkdir -p _site

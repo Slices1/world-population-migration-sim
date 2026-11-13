@@ -189,7 +189,14 @@ tmp/*
 
 claude/*
 .claude/*
+claude/
+.claude/
 claude.md
 Claude.md
 
 model/data/*
+!model/data/ne_50m_admin_0_countries.geojson
+
+temp.*
+
+docs/
